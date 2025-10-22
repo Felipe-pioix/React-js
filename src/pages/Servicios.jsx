@@ -40,14 +40,14 @@ function Servicios() {
 		<section>
 			<h2>Somos representantes oficiales de:</h2>
 			<div class="marcas">
-				<img src="img/Asian.jpg" alt="Asian"></img>
-				<img src="img/Chen-Hsong.jpg" alt="Chen Hsong"></img>
-				<img src="img/Shini.jpg" alt="Shini"></img>
-				<img src="img/Line-seiki.jpg" alt="Line Seiki"></img>
-				<img src="img/Arico.bmp" alt="Arico"></img>
-				<img src="img/MINHUI.jpg" alt="MINHUI"></img>
-				<img src="img/GENOX.jpg" alt="GENOX"></img>
-				<img src="img/LAE_Electronic.jpg" alt="LAE Electronic"></img>
+				<img src="./img/Asian.jpg" alt="Asian"></img>
+				<img src="./img/Chen-Hsong.jpg" alt="Chen Hsong"></img>
+				<img src="./img/Shini.jpg" alt="Shini"></img>
+				<img src="./img/Line-seiki.jpg" alt="Line Seiki"></img>
+				<img src="./img/Arico.bmp" alt="Arico"></img>
+				<img src="./img/MINHUI.jpg" alt="MINHUI"></img>
+				<img src="./img/GENOX.jpg" alt="GENOX"></img>
+				<img src="./img/LAE_Electronic.jpg" alt="LAE Electronic"></img>
 			</div>
 		</section>
 	</main>

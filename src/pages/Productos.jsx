@@ -12,7 +12,7 @@ export default function Productos() {
   const { agregarAlCarrito } = useAppContext();
 
 useEffect(() => {
-    fetch("https://68d482e3214be68f8c696ae2.mockapi.io/api/productos")
+    fetch("https://68d482a8214be68f8c696a02.mockapi.io/Productos")
       .then((respuesta) => respuesta.json())
       .then((datos) => {
         setProductos(datos);
@@ -27,7 +27,7 @@ useEffect(() => {
 
   if (cargando) return <p>Cargando productos...</p>;
   if (error) return <p>{error}</p>;
-
+  console.log(productos,cargando,error);
   return (
     <>
       <ul id="lista-productos">

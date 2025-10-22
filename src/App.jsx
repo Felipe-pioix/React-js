@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Inicio from './pages/Inicio'
-import Servicios from './pages/Servicios'
 import Navbar from './pages/Navbar'
 import Productos from './pages/Productos'
 import ProductoDetalle from './pages/DetalleProdutos'
@@ -19,7 +18,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Inicio />} />
-        <Route path='/servicios' element={<Servicios />} />
         <Route path='/productos' element={<Productos />} />
         <Route path='/productos/:id' element={<ProductoDetalle />} />
         <Route path='/productos/:categoria/:id' element={<ProductoDetalle />} />
